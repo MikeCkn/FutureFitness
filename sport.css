@@ -1,15 +1,45 @@
 /*======== BODY OPTIONS ========*/
 * {
-	/*border: 1px solid black;*/
+	/*border: 1px solid red;*/
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Lato;
+	font-family: Montserrat;
 }
 /*======== BODY OPTIONS ========*/
 
 /*======== NAV ========*/
+#header {
+	height: 90px;
+	line-height: 90px;
+}
 
+#logo  {
+	height: 70px;
+}
+
+.menu a {
+	font-size: 0.9em;
+	color: #CA3235;
+	text-transform: uppercase;
+	margin-left: 35px;
+}
+
+.menu a:hover {
+	transition: 0.5s;
+	text-decoration: none;
+	padding: 15px 0px 15px 0px;
+	border-bottom: 1px solid #CA3235;
+	border-top: 1px solid #CA3235;
+}
 /*======== END NAV ========*/
+
+/*======== SECTION 1 ========*/
+#section1 {
+	background-image: url(images/girl.jpg);
+	background-size: cover;
+	min-height: 805px;
+}
+/*======== END SECTINO 1 ========*/
