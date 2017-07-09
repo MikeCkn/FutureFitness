@@ -23,14 +23,15 @@ body {
 }
 
 #logo  {
-	height: 70px;
+	height: 80px;
+	padding-left: 40px;
 }
 
 .menu a {
 	color: #CA3235;
 	text-transform: uppercase;
 	margin-left: 30px;
-	padding: 5px 0px 5px 0px;
+	padding: 8px 0px 8px 0px;
 	border-bottom: 1px solid #CA3235;
 	border-top: 1px solid #CA3235;
 }
@@ -48,7 +49,7 @@ body {
 /*======== TRANSITION ========*/
 #transition {
 	height: 300px;
-	background-color: #db5e60;
+	background-image: linear-gradient( 135deg, #FFF6B7 0%, #F6416C 100%);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -88,7 +89,7 @@ hr {
 /*======== TRANSITION 2 ========*/
 #transition2 {
 	height: 500px;
-	background-color: #db5e60;	
+	background-image: linear-gradient( 135deg, #FFF6B7 0%, #F6416C 100%);
 	color: #000;
 }
 
@@ -162,7 +163,7 @@ hr {
 /*======== FOOTER ========*/
 #footer {
 	height: 50px;
-	background-color: #db5e60;
+	background-image: linear-gradient( 135deg, #FFF6B7 0%, #F6416C 100%);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
